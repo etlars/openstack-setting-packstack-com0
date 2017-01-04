@@ -1,0 +1,21 @@
+OFPT_FEATURES_REPLY (xid=0x2): dpid:0000727d29e2d44b
+n_tables:254, n_buffers:256
+capabilities: FLOW_STATS TABLE_STATS PORT_STATS QUEUE_STATS ARP_MATCH_IP
+actions: output enqueue set_vlan_vid set_vlan_pcp strip_vlan mod_dl_src mod_dl_dst mod_nw_src mod_nw_dst mod_nw_tos mod_tp_src mod_tp_dst
+ 1(patch-tun): addr:96:fa:a9:c2:0b:c9
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 3(int-br-pr43ea69): addr:92:98:3a:b2:c6:a8
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 5(int-br-ex): addr:7e:ad:a6:30:d9:80
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ LOCAL(br-int): addr:72:7d:29:e2:d4:4b
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max
+OFPT_GET_CONFIG_REPLY (xid=0x4): frags=normal miss_send_len=0

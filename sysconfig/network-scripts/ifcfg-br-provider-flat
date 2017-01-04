@@ -1,0 +1,6 @@
+DEVICE=br-provider-flat
+TYPE=OVSBridge
+DEVICETYPE=ovs
+ONBOOT=yes
+NM_CONTROLLED=no
+BOOTPROTO=none

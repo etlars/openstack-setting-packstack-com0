@@ -1,0 +1,7 @@
+DEVICE=eth3
+TYPE=OVSPort
+DEVICETYPE=ovs
+OVS_BRIDGE=br-provider-flat
+ONBOOT=yes
+NM_CONTROLLED=no
+BOOTPROTO=none
