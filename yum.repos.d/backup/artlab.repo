@@ -1,0 +1,24 @@
+[base]
+name=CentOS-$releasever - Base
+baseurl=http://70.60.31.147/CentOS/$releasever/os/$basearch/
+gpgcheck=0
+
+[updates]
+name=CentOS-$releasever - Updates
+baseurl=http://70.60.31.147/CentOS/$releasever/updates/$basearch/
+gpgcheck=0
+
+[extras]
+name=CentOS-$releasever - Extras
+baseurl=http://70.60.31.147/CentOS/$releasever/extras/$basearch/
+gpgcheck=0
+
+[centosplus]
+name=CentOS-$releasever - Plus
+baseurl=http://70.60.31.147/CentOS/$releasever/centosplus/$basearch/
+gpgcheck=0
+
+[contrib]
+name=CentOS-$releasever - Contrib
+baseurl=http://70.60.31.147/CentOS/$releasever/contrib/$basearch/
+gpgcheck=0
